@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>eCommerce</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/906eb8b0fb.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="/img/logo-1.png" type="image/png">
+    </head>
+    <body>
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <div class="menu-container" >
+                <div class="menu-item"></div>
+                <div class="menu-item"></div>
+                <div class="menu-item"></div>
+            </div>
+            <div class="btnContainer">
+                <p class="loginBtn">Login</p>
+                <p class="registerBtn">Register</p>
+            </div>           
+        </div>
+
+        <!-- Navigation Bar -->
+        <nav class="nav-container" >
+            <div class="nav-item logo">
+                <img src="img/logo-1.png" alt="logo" style="height:80px; width:auto; cursor:pointer;">
+                <h3>Company's Name</h3>
+            </div>
+            <div class="nav-item">
+                <h3>Home</h3>
+            </div>
+            <div class="nav-item" id="products">
+                <h3 >Products</h3>   
+                <!-- Dropdown Menu --> 
+                <div class="dropdown">
+                    <ul>
+                        <li>Praesentium</li>
+                        <li>Dolorum</li>
+                        <li>Libero Odio</li>
+                        <li>Dignissimos</li>
+                        <li>Consectetur</li>
+                    </ul>
+                </div>                                                              
+            </div>            
+            <div class="nav-item" id="about-us">
+                <h3>About Us</h3>
+                <!-- Dropdown Menu --> 
+                <div class="dropdown-2">
+                    <ul>
+                        <li>Our Profile</li>                     
+                        <li>Quality Control</li>
+                        <li>Facility</li>
+                        <li>Investments</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>         
+            </div>
+            <div id="nav-search" class="nav-item">             
+                <input type="text" placeholder="What are you looking for today" class="search-bar">
+                    <button class="searchBtn"><i class="fas fa-search" ></i></button>
+                </input>       
+            </div>
+            <div class="nav-item">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="nav-item">
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+        </nav>
+        <nav class="mobile-nav-container">         
+            <div class="logo-container">
+                <img src="img/logo-1.png" alt="logo" style="height:40px; width:auto; cursor:pointer;">
+                <h3>Company's Name</h3>
+            </div>
+            <div class="nav-item" style="border-left:1px solid gray; height:40px;">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="nav-item" style="border-left:1px solid gray;height:40px;">
+                <i class="fas fa-shopping-cart"></i>
+            </div>         
+        </nav>
+        <div id="mobile-nav-search">             
+            <input type="text" placeholder="What are you looking for today" class="mobile-search-bar">
+                <button class="searchBtn"><i class="fas fa-search" ></i></button>
+            </input>       
+        </div> 
+    
+        <!-- Carousel section -->
+        <section class="carousel-wrap">
+            <div class="carousel-container">           
+                <div class="slide">
+                    <img src="img/collection-2/IMG1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/collection-2/IMG2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/collection-2/IMG3.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/collection-2/IMG4.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/collection-2/IMG5.jpg" alt="">
+                </div>
+                <a class="prev" id="pre">&#10094;</a>
+                <a class="next" id="nxt">&#10095;</a>
+            </div>
+        </section>
+
+        <!-- Featured Items -->
+        <section class="wrapper">
+            <div class="head-line">               
+                <h1>Featured Items</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae atque officia reiciendis obcaecati earum quas doloribus dolorem ipsa.</p>
+            </div>   
+            <div class = "featured-container">                                
+                <div class="featured-item-container">
+                    <div class="featured-item">
+                        <img src="img/collection-3/IMG1.jpg" alt="0">
+                    </div>
+                    <div class="featured-item">
+                        <img src="img/collection-3/IMG2.jpg" alt="1">
+                    </div>
+                    <div class="featured-item">
+                        <img src="img/collection-3/IMG3.jpg" alt="2">
+                    </div>
+                    <div class="featured-item">
+                        <img src="img/collection-3/IMG4.jpg" alt="3">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Award Section -->
+        <section class="award-container">
+            <div class="award-item">
+                <img src="img/awards/IMG1.png" alt="">
+            </div>
+            <div class="award-item">
+                <img src="img/awards/IMG2.png" alt="">
+            </div>
+            <div class="award-item">
+                <img src="img/awards/IMG3.png" alt="">
+            </div>
+            <div class="award-item">
+                <img src="img/awards/IMG4.png" alt="">
+            </div>
+        </section>    
+
+        <!-- Product Catalogue -->
+        <section class="products-container">
+            <div class="head-line" id="headline2">               
+                <h1>Product Catalogue</h1>
+            </div>
+            <hr style="  margin-top:30px;">
+            <div class="product-item-container">               
+                <div class="product-item">
+                    <img src="img/collection-4/IMG1.jpg" alt="4" data-name="img1">                  
+                </div>
+                <div class="product-item">
+                    <img src="img/collection-4/IMG2.jpg" alt="5" data-name="img2">
+                </div>
+                <div class="product-item">
+                    <img src="img/collection-4/IMG3.jpg" alt="6" data-name="img3">
+                </div>
+                <div class="product-item">
+                    <img src="img/collection-4/IMG4.jpg" alt="7" data-name="img4">
+                </div>
+                <div class="product-item">
+                    <img src="img/collection-4/IMG5.jpg" alt="8" data-name="img5">
+                </div>
+                <div class="product-item">
+                    <img src="img/collection-4/IMG6.jpg" alt="9" data-name="img6">
+                </div>
+                <div class="product-item">
+                    <img src="img/collection-4/IMG7.jpg" alt="10" data-name="img7">
+                </div>
+                <div class="product-item">
+                    <img src="img/collection-4/IMG8.jpg" alt="11" data-name="img8">
+                </div>
+                <div class="product-item">
+                    <img src="img/collection-4/IMG9.jpg" alt="12" data-name="img9">
+                </div>
+                <div class="product-item">
+                    <img src="img/collection-4/IMG10.jpg" alt="13" data-name="img10">
+                </div>
+                <div class="product-item">
+                    <img src="img/collection-4/IMG11.jpg" alt="14" data-name="img11">
+                </div>
+                <div class="product-item">
+                    <img src="img/collection-4/IMG12.jpg" alt="15" data-name="img12">
+                </div>
+            </div>    
+            <hr> 
+        </section>
+
+        <!-- Modal box -->
+        <div class="modal">
+            <div class="product-info">
+                <div class="product-picture">
+                    <img src="img/collection-4/IMG1.jpg" alt="" class="product-image">
+                    <div class="add-to-cart-container">
+                        <h5 style="margin-right: 10px;">Quantity: </h5>
+                        <button id="decrease">-</button>
+                        <input type="text" maxlength="2" id="quantity" value=0 min =0 max=99 readonly>
+                        <button id="increase">+</button>                     
+                        <button id="add-to-cart-button">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-desc">
+                    <h3 id="product-name"></h3>
+                    <fieldset id="descriptions-container">
+                        <legend><h4>Descriptions:</h4></legend>
+                        <p id="descriptions"></p>
+                    </fieldset>                    
+                </div>  
+            </div>
+        </div>
+        <script src="js/script.js" async defer></script>
+    </body>
+    <footer>
+        
+    </footer>
+</html>
